@@ -1,10 +1,9 @@
 #!/usr/bin/perl
 
-#using warnings;
-#using strict;
+use warnings;
+use strict;
 
 for(my $val =1; $val < 100; $val ++){
-
     if($val % 3 == 0  && $val % 5 == 0){
         print("FizzBuzz\n");
     }elsif($val % 3 == 0){
